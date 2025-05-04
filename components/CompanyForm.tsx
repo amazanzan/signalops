@@ -24,11 +24,11 @@ export function CompanyForm() {
       
       <div className="space-y-2">
         <label htmlFor="otherDetails" className="text-sm font-medium">
-          Other Details
+          Disambiguating Information
         </label>
         <Input
           id="otherDetails"
-          placeholder="Industry, size, location, etc."
+          placeholder="Use this field if your company has a common name"
           value={otherDetails}
           onChange={(e) => setOtherDetails(e.target.value)}
         />
